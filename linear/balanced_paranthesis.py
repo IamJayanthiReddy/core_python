@@ -1,5 +1,5 @@
 """
-Program to chech whether paranthesis is balanced or not using Stack
+Program to check whether paranthesis is balanced or not using Stack
 """
 
 from data_structures.linear.stack import *
@@ -31,6 +31,7 @@ def match_symbol(symbol_str):
         return True
 
     return False
-match_symbol("([{}]))")
-match_symbol("(([{]})))")
+
+print(match_symbol("([{}]))"))
+print(match_symbol("(([{]})))"))
 
